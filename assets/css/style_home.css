@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAF4;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #996b99;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+#icon {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 700;
+    color: #FAFAF4;
+    position: absolute;
+    top: 8;
+    left: 8;
+    font-size: 24px;
+    float: left;
+}
+
+#alphabet{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 700;
+    color: #FAFAF4;
+    letter-spacing: 8px;
+    font-size: 16px;
+    margin: 13;
+    position: relative;
+    text-align: center;
+}
+
+#search-bar{
+    font-family: 'Julius Sans One', sans-serif;
+    background: #FAFAF4;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 2px;
+    padding-left: 8px;
+    z-index: 100;
+    position: absolute;
+    right: 10;
+    top: 14;
+}
+
+#title-block {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    top: 100;
+    text-align: center;
+    color: #262626;
+    padding-bottom: 40;
+}
+
+#header {
+    padding-bottom: 30;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40px;
+}
+
+#description {
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 16;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    weight: 60px;
+    padding-bottom: 30;
+}
+
+#label {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    margin-top: 90;
+}
+
+#image-block {
+    margin-top: 30;
+    text-align: center;
+}
+
+#image-block div {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+#image1 {
+    left: 100;
+    top: 20;
+    z-index: 0;
+    transition: 2s;
+    opacity: 0.6;
+}
+
+#image1:hover {
+    opacity: 1;
+}
+
+#image2 {
+    left: 50;
+    top: 10;
+    z-index: 10;
+    opacity: 0.6;
+    transition: 2s;
+}
+
+#image2:hover {
+    opacity: 1;
+}
+
+
+#image3 {
+    opacity: 1;
+    z-index: 25;
+    opacity: 0.8;
+    transition: 2s;
+}
+
+#image3:hover {
+    opacity: 1;
+}
+
+#image4 {
+    right: 50;
+    top: 10;
+    z-index: 10;
+    opacity: 0.6;
+    transition: 2s;
+}
+
+#image4:hover {
+    opacity: 1;
+}
+
+#image5 {
+    right: 100;
+    top: 20;
+    z-index: 0;
+    opacity: 0.6;
+    transition: 2s;
+}
+
+#image5:hover {
+    opacity: 1;
+}
+
+.image {
+    position: relative;
+    border: 5px solid #C2BEBE;
+    border-style: ridge;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+
+#arrow1 {
+    position: relative;
+    left: 90;
+    bottom: 50;
+    opacity: 0.6;
+}
+
+#arrow2 {
+    position: relative;
+    right: 90;
+    bottom: 50;
+    opacity: 0.6;
+}
